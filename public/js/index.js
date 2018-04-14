@@ -3,11 +3,6 @@ var socket = io();
 
 socket.on('connect',function(){
   console.log('connected to server');
-
-    socket.emit('createMessage',{
-     to:'man.gun.tappu@gmail.com',
-     text:'hey. this is aman'
-   });
 });
 
 
